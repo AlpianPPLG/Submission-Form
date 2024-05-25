@@ -1,0 +1,170 @@
+body {
+  background: linear-gradient(to right, #f3f3f3, #e2e2e2);
+  text-align: center;
+  font-family: 'Arial', sans-serif;
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+body.dark-mode {
+  background: linear-gradient(to right, #2c3e50, #4ca1af);
+  color: #f3f3f3;
+}
+
+.App {
+  background-color: #fff;
+  border-radius: 20px;
+  box-shadow: 0 0 30px rgba(0, 0, 0, 0.3);
+  padding: 20px 30px;
+  transition: transform 0.3s, box-shadow 0.3s;
+  width: 90%;
+  max-width: 600px;
+  text-align: center;
+  margin: auto;
+  margin-top: 30px;
+}
+
+.App.dark-mode {
+  background-color: #333;
+  color: #f3f3f3;
+}
+
+.App:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 40px rgba(0, 0, 0, 0.4);
+}
+
+h1 {
+  font-size: 2em;
+  text-align: center;
+  color: #000; /* Mengubah warna menjadi hitam */
+  margin-bottom: 20px;
+}
+
+h1.dark-mode {
+  color: #f3f3f3; /* Mengubah warna menjadi putih saat dark mode */
+}
+
+fieldset {
+  border: 1px solid #ddd;
+  padding: 10px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+fieldset.dark-mode {
+  border: 1px solid #555;
+}
+
+input {
+  display: block;
+  width: 100%;
+  margin-bottom: 15px;
+  padding: 10px;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 14px;
+  background-color: #fff;
+  color: #333;
+}
+
+input.dark-mode {
+  background-color: #555;
+  color: #f3f3f3;
+  border: 1px solid #777;
+}
+
+input[type="radio"],
+input[type="checkbox"] {
+  display: inline;
+  width: auto;
+  margin-right: 10px;
+}
+
+input[type="radio"].dark-mode,
+input[type="checkbox"].dark-mode {
+  background-color: #555;
+  color: #f3f3f3;
+  border: 1px solid #777;
+}
+
+select {
+  display: block;
+  width: 100%;
+  margin-bottom: 15px;
+  padding: 12px;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #fff;
+  color: #333;
+}
+
+select.dark-mode {
+  background-color: #555;
+  color: #f3f3f3;
+  border: 1px solid #777;
+}
+
+label {
+  font-size: 16px;
+  display: block;
+  width: 100%;
+  margin-top: 10px;
+  margin-bottom: 8px;
+  text-align: left;
+  color: #555;
+  font-weight: bold;
+}
+
+label.dark-mode {
+  color: #f3f3f3;
+}
+
+button {
+  padding: 15px;
+  border-radius: 10px;
+  margin: 15px;
+  border: none;
+  color: white;
+  cursor: pointer;
+  background-color: #007bff; /* Changed to blue */
+  width: 45%;
+  font-size: 18px;
+  transition: background-color 0.3s, transform 0.3s;
+}
+
+button:hover {
+  background-color: #6a0dad; /* Changed to slightly purple */
+  transform: scale(1.05);
+}
+
+button.dark-mode {
+  background-color: #327c35;
+}
+
+button.dark-mode:hover {
+  background-color: #2e7d32;
+}
+
+textarea {
+  resize: none;
+  width: 100%;
+  min-height: 120px;
+  max-height: 200px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 14px;
+  box-sizing: border-box;
+  background-color: #fff;
+  color: #333;
+}
+
+textarea.dark-mode {
+  background-color: #555;
+  color: #f3f3f3;
+  border: 1px solid #777;
+}
