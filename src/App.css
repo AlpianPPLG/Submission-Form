@@ -42,8 +42,8 @@ h1 {
   margin-bottom: 20px;
 }
 
-h1.dark-mode {
-  color: #f3f3f3; /* Mengubah warna menjadi putih saat dark mode */
+.dark-mode h1 {
+  color: #fff;
 }
 
 fieldset {
@@ -119,8 +119,8 @@ label {
   font-weight: bold;
 }
 
-label.dark-mode {
-  color: #f3f3f3;
+.dark-mode label {
+  color: #fff;
 }
 
 button {
